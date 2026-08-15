@@ -1,0 +1,36 @@
+name: Bug report
+description: Something broke or looks wrong in one of the Lens plugins
+labels: [bug]
+body:
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin and version
+      description: Which plugin, and its version (Settings > Plugins)
+      placeholder: Parquet Lens 1.1.0
+    validations:
+      required: true
+  - type: input
+    id: ide
+    attributes:
+      label: IDE and build
+      description: Help > About
+      placeholder: IntelliJ IDEA 2026.2
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: File shape
+      description: Rough size and format of the file involved. A sample line helps if you can share one.
+  - type: textarea
+    id: log
+    attributes:
+      label: Stack trace or log
+      description: From Help > Show Log in Files, if there was an exception
+      render: text

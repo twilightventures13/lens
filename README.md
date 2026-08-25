@@ -19,9 +19,8 @@ collect anything: your files stay on your machine.
 - [SQLite Lens](https://plugins.jetbrains.com/plugin/33684) is a read-only SQLite
   viewer: browse the schema, page through tables, inspect cells, without loading
   or locking the database.
-- XLSX Lens does the same for Excel workbooks: a read-only .xlsx viewer that pages
-  sheets of any size. Its Marketplace listing is in review; the link lands here
-  when it goes live.
+- [XLSX Lens](https://plugins.jetbrains.com/plugin/33721) does the same for Excel
+  workbooks: a read-only .xlsx viewer that pages sheets of any size.
 
 Each listing also carries a Lens Suite page on how the family fits together:
 [JSONL](https://plugins.jetbrains.com/plugin/33397-jsonl-lens-ndjson-viewer/lens-suite),

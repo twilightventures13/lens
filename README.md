@@ -1,7 +1,8 @@
 # Lens
 
 Data file viewers for JetBrains IDEs and VS Code, from Twilight Ventures. They open
-big JSONL, log, Parquet, SQLite, DuckDB, Excel and Jupyter notebook files in place,
+big JSONL, log, Parquet, SQLite, DuckDB, Excel, Jupyter notebook and JVM heap dump
+files in place,
 paging through them instead of loading everything into memory. None of them make
 network calls or collect anything: your files stay on your machine.
 
@@ -27,6 +28,9 @@ network calls or collect anything: your files stay on your machine.
 - [Notebook Lens](https://plugins.jetbrains.com/plugin/33811) renders Jupyter
   notebooks as readable documents, outputs included, with no kernel and no
   Jupyter install.
+- [Heap Dump Lens](https://plugins.jetbrains.com/plugin/33908) reads JVM heap
+  dumps, thread dumps and GC logs: .hprof summaries and class histograms free,
+  retained sizes and dominator trees in Pro.
 
 Each listing also carries a Lens Suite page on how the family fits together:
 [JSONL](https://plugins.jetbrains.com/plugin/33397-jsonl-lens-json-lines--ndjson-viewer/lens-suite),
@@ -35,7 +39,8 @@ Each listing also carries a Lens Suite page on how the family fits together:
 [SQLite](https://plugins.jetbrains.com/plugin/33684-sqlite-lens-sqlite-database-file-viewer/lens-suite),
 [DuckDB](https://plugins.jetbrains.com/plugin/33853-duckdb-lens-duckdb-database-file-viewer/lens-suite),
 [XLSX](https://plugins.jetbrains.com/plugin/33721-xlsx-lens-excel-xlsx-spreadsheet-viewer/lens-suite),
-[Notebook](https://plugins.jetbrains.com/plugin/33811-notebook-lens-jupyter-ipynb-viewer/lens-suite).
+[Notebook](https://plugins.jetbrains.com/plugin/33811-notebook-lens-jupyter-ipynb-viewer/lens-suite),
+[Heap Dump](https://plugins.jetbrains.com/plugin/33908-heap-dump-lens-jvm-heap-dump-thread-dump--gc-log-viewer/lens-suite).
 
 VS Code builds of JSONL Lens and Parquet Lens Viewer are published on
 [Open VSX](https://open-vsx.org/namespace/twilightventures).

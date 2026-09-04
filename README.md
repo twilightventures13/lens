@@ -50,9 +50,10 @@ VS Code builds of JSONL Lens and Parquet Lens Viewer are published on
 The viewers are free and stay useful without paying: browse, search, follow, page
 through files of any size. Pro adds a power layer that differs per plugin, so each
 listing spells out its own split (filter queries, exports, stats, global sort,
-filtered follow). One 30-day trial covers enough time to try the whole family, and
-a Pro license keeps working perpetually for every version released while it was
-active. Pro is new features, never a takeback.
+filtered follow). Each plugin comes with its own free 30-day Pro trial, and a year of
+continuous subscription earns JetBrains' perpetual fallback license: the version
+available when that year started stays yours for good, including its fixes. Pro is
+new features, never a takeback.
 
 ## Bugs and requests
 

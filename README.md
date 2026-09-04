@@ -1,7 +1,7 @@
 # Lens
 
 Data file viewers for JetBrains IDEs and VS Code, from Twilight Ventures. They open
-big JSONL, log, Parquet, SQLite, DuckDB, Excel, Jupyter notebook and JVM heap dump
+big JSONL, log, Parquet, Avro, SQLite, DuckDB, Excel, Jupyter notebook and JVM heap dump
 files in place,
 paging through them instead of loading everything into memory. None of them make
 network calls or collect anything: your files stay on your machine.
@@ -15,7 +15,7 @@ network calls or collect anything: your files stay on your machine.
   large files, in plain, JSONL, logfmt and ANSI flavors, and can follow them as
   they grow.
 - [Parquet Lens](https://plugins.jetbrains.com/plugin/33510) is a Parquet viewer
-  that opens Parquet, Arrow and Feather datasets straight from the editor, no
+  that opens Parquet, Avro, Arrow and Feather datasets straight from the editor, no
   export step.
 - [SQLite Lens](https://plugins.jetbrains.com/plugin/33684) is a read-only SQLite
   viewer: browse the schema, page through tables, inspect cells, without loading
@@ -42,7 +42,7 @@ Each listing also carries a Lens Suite page on how the family fits together:
 [Notebook](https://plugins.jetbrains.com/plugin/33811-notebook-lens-jupyter-ipynb-viewer/lens-suite),
 [Heap Dump](https://plugins.jetbrains.com/plugin/33908-heap-dump-lens-jvm-heap-dump-thread-dump--gc-log-viewer/lens-suite).
 
-VS Code builds of JSONL Lens and Parquet Lens Viewer are published on
+VS Code builds of JSONL Lens and Parquet Lens are published on
 [Open VSX](https://open-vsx.org/namespace/twilightventures).
 
 ## Free and Pro

@@ -1,21 +1,15 @@
-# Privacy policy
+# privacy
 
-Twilight Ventures LLC builds the Lens family of data file viewers for JetBrains IDEs, VS Code and Atlassian Confluence.
+last updated 2026-09-05
 
-## What the tools process
+This page covers every Lens viewer from Twilight Ventures: the eight JetBrains plugins (JSONL Lens, Log Lens, Parquet Lens, SQLite Lens, XLSX Lens, Notebook Lens, DuckDB Lens, Heap Dump Lens) and the two VS Code extensions (JSONL Lens, Parquet Lens Viewer).
 
-Lens viewers read the files you open with them and render the contents on your screen. All parsing happens locally: in your IDE process, or, for Lens File Viewer for Confluence, in your browser inside the Confluence page, using your own Confluence session and permissions. File contents are never sent to us or to any third party.
+The viewers read the file you open, and for a database also the journal and write-ahead sidecar files that sit beside it (the -wal, -shm and -journal files a SQLite or DuckDB database keeps), because those hold the newest pages. Images in a notebook are drawn from the bytes saved inside the notebook; nothing is fetched. The viewers make no network calls, collect no telemetry, keep no account, and never send a file, a file name or a record anywhere. The one network call in any Lens product is the VS Code Pro license key, described below.
 
-## What we collect
+On JetBrains IDEs the Pro license state is read from the IDE's own licensing system. The plugin itself never talks to the network; the IDE handles the subscription the way it handles its own.
 
-Nothing. The tools carry no telemetry, no analytics and no account system of ours. We see none of your files, searches or usage.
+On VS Code the free viewer makes no network calls at all. Pasting a Pro license key makes one call to Polar, the store that issued it, carrying the key, our store id and the name of your computer, so the key can be tied to that machine. There is no periodic check afterwards; the extension does not call again until you remove the key, which sends one more call to release the machine. The key itself is kept in VS Code's secret storage on your machine. The 14-day trial is local and makes no call.
 
-## Marketplace platforms
+What we do receive comes from the stores, not the software. When you buy Pro on the JetBrains Marketplace, JetBrains shows us a customer number, the country and the order; when you buy a key through Polar, Polar shows us the name, email address and country you gave at checkout, the amount, and the key. We keep those order records in our own books for as long as tax law asks, and we use the email address only to answer you. We never sell them, and the only party that sees them beyond us is the tax filing the law requires.
 
-When you install or buy through the JetBrains Marketplace or the Atlassian Marketplace, those platforms handle your account and billing data under their own terms. The sales reporting we receive from them contains no file contents.
-
-## Contact
-
-Questions about this policy: open an issue at https://github.com/twilightventures13/lens/issues or use the support contact on the marketplace listing.
-
-Last updated 2026-08-26.
+Privacy questions can go to twilightventures13@gmail.com, or to the issue tracker or the discussions of this repository if you prefer them public.

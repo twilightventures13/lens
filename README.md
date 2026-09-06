@@ -32,6 +32,8 @@ network calls or collect anything: your files stay on your machine.
   dumps, thread dumps and GC logs: .hprof summaries and class histograms free,
   retained sizes and dominator trees in Pro.
 
+Notebook Lens is listed in [awesome-jupyter](https://github.com/markusschanta/awesome-jupyter), and DuckDB Lens in [awesome-duckdb](https://github.com/davidgasquez/awesome-duckdb).
+
 Each listing also carries a Lens Suite page on how the family fits together:
 [JSONL](https://plugins.jetbrains.com/plugin/33397-jsonl-lens-json-lines--ndjson-viewer/lens-suite),
 [Log](https://plugins.jetbrains.com/plugin/33416-log-lens-large--structured-log-viewer-jsonl-logfmt-ansi-/lens-suite),

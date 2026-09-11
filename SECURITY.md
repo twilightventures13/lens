@@ -30,7 +30,7 @@ We fix confirmed vulnerabilities on the schedule the Atlassian Marketplace sets 
 
 - Every release passes an automated gate before it ships: the test suites, a scan of the shipped files for anything that does not belong in them, and the checks each store runs on a submission (for the Forge apps, the Runs on Atlassian eligibility check). A security defect goes ahead of everything else in the queue.
 - The Forge apps ship two third-party packages beside our own engine code, and the engine carries the file readers it is built from. The licenses file shipped inside each app lists every one of them with its license.
-- One person holds the publishing accounts, and each of those accounts has two-step verification on. The publishing tokens live on a single machine of ours that is reached only with keys tied to one account; they are listed in a register, a token that carries an expiry date is replaced before that date, and any token is replaced at once if exposed.
+- The publishing accounts have a single owner, and each of those accounts has two-step verification on. The publishing tokens live on a single machine of ours that is reached only with keys tied to one account; they are listed in a register, a token that carries an expiry date is replaced before that date, and any token is replaced at once if exposed.
 
 ## Supported versions
 

@@ -6,7 +6,7 @@ Twilight Ventures makes file viewers for developer tools: the Lens plugins for J
 
 ## Security issues and incidents
 
-Write to security@twilightventures.dev. The mailbox alerts us the moment a message arrives; we answer within three business days and keep you informed until the fix ships. Please include the product and its version, the file or the steps that show the problem, and what you saw. We ask for 90 days to fix an issue before details are published, and we will say so if we need less. The fix is noted in the release notes of the version that carries it, with credit to the reporter if they wish.
+Write to security@twilightventures.dev. The mailbox is checked through the day; we answer within three business days and keep you informed until the fix ships. Please include the product and its version, the file or the steps that show the problem, and what you saw. We ask for 90 days to fix an issue before details are published, and we will say so if we need less. The fix is noted in the release notes of the version that carries it, with credit to the reporter if they wish.
 
 Should an incident touch customer data, or should a publishing account or key of ours be compromised, we raise a P1 ticket with Atlassian Marketplace support within 24 hours of learning of it for the Forge apps, and write to the JetBrains Marketplace or the two VS Code stores the same day for the plugins; we keep those tickets updated while we contain the problem.
 

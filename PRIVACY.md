@@ -12,4 +12,4 @@ On VS Code the free viewer makes no network calls at all. Pasting a Pro license 
 
 What we do receive comes from the stores, not the software. When you buy Pro on the JetBrains Marketplace, JetBrains shows us a customer number, the country and the order; when you buy a key through Polar, Polar shows us the name, email address and country you gave at checkout, the amount, and the key. We keep those order records in our own books for as long as tax law asks, and we use the email address only to answer you. We never sell them, and the only party that sees them beyond us is the tax filing the law requires.
 
-Privacy questions can go to twilightventures13@gmail.com, or to the issue tracker or the discussions of this repository if you prefer them public.
+Privacy questions can go to support@twilightventures.dev, or to the issue tracker or the discussions of this repository if you prefer them public.

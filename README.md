@@ -1,5 +1,7 @@
 # Lens
 
+Website: https://twilightventures.dev
+
 Data file viewers for JetBrains IDEs and VS Code, from Twilight Ventures. They open
 big JSONL, log, Parquet, Avro, TFRecord, SQLite, DuckDB, Excel, Jupyter notebook and JVM heap dump
 files in place,

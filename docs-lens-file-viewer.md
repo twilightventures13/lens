@@ -4,7 +4,7 @@ Open CSV, Excel, JSONL, Parquet, log and text attachments as paged tables on the
 
 ## Install
 
-Install the app from its Atlassian Marketplace listing, or in Confluence under Settings, then Apps. Two read scopes get requested: read:page:confluence, so the macro can list what a page has attached, and read:attachment:confluence, so it can read the file you open. There are no vendor servers involved and nothing is stored on any server; your browser keeps two small things, your answer to the review line and your Strand pick, both described below.
+Install the app from its Atlassian Marketplace listing, or in Confluence under Settings, then Apps. Two read scopes get requested: read:page:confluence, so the macro can list what a page has attached, and read:attachment:confluence, so it can read the file you open. There are no vendor servers involved and the app keeps no copy of your data anywhere. The macro keeps its own settings (the pinned file, the second page and the height) inside the page it sits on, and your browser keeps two small records, your answer to the review line and your Strand pick, both described below.
 
 ## Use
 
@@ -32,7 +32,7 @@ After the fifth file the macro has opened in your browser, it asks once for a ma
 
 The configuration has a height choice for the macro. The default is 560 px; 800 and 1000 px are the other two. The grid scrolls inside that height, so a long file never stretches the page.
 
-A Strand picker, a choice of palette for the grid, sits at the end of the toolbar. Default keeps the host theme, and eight named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
+A Strand picker, a choice of palette for the grid, sits at the end of the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
 
 ## Formats and limits
 

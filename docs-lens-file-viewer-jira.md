@@ -4,7 +4,7 @@ Open CSV, Excel, JSONL, Parquet, log and text attachments as paged tables on the
 
 ## Install
 
-Install the app from its Atlassian Marketplace listing, or in Jira under Settings, then Apps. One read scope gets requested, read:jira-work, so the panel can list what an issue has attached and read the file you open. There are no vendor servers involved and nothing is stored on any server; your browser keeps one small thing, your answer to the review line described below.
+Install the app from its Atlassian Marketplace listing, or in Jira under Settings, then Apps. One read scope gets requested, read:jira-work, so the panel can list what an issue has attached and read the file you open. There are no vendor servers involved and the app keeps no copy of your data anywhere. Jira keeps the panel's place on the issue, and your browser keeps two small records, your answer to the review line and your Strand pick, both described below.
 
 ## Use
 
@@ -26,9 +26,11 @@ The license state of the site reads as one line inside the panel: on an evaluati
 
 After the fifth file the panel has opened in your browser, it asks once for a marketplace review; a review helps us decide what to build next. Write a review opens the listing, No thanks closes the line, and either answer is kept in this browser so the question does not come back.
 
+A Strand picker, a choice of palette for the grid, sits at the end of the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
+
 ## Formats and limits
 
-Log and plain text: .log, .txt, .out. JSONL and NDJSON. CSV and TSV, with delimiter sniffing, header detection and quoted fields. Excel .xlsx and .xlsm; an encrypted workbook or a legacy .xls file is refused with a message that says so. Parquet, with snappy, gzip, zstd or lz4 compressed columns. Gzip-wrapped line formats (.log.gz, .txt.gz, .out.gz, .jsonl.gz, .ndjson.gz, .csv.gz, .tsv.gz) inflate in the browser under a 384 MB decompressed ceiling; larger files ask for a download instead. Parquet and Excel need plain bytes and do not open from .gz.
+Log and plain text: .log, .txt, .out. JSONL and NDJSON. CSV and TSV, with delimiter sniffing, header detection and quoted fields. Excel .xlsx and .xlsm; an encrypted workbook or a legacy .xls file is refused with a message that says so. Parquet, with snappy, gzip, zstd or lz4 compressed columns. Gzip-wrapped line formats (.log.gz, .txt.gz, .out.gz, .jsonl.gz, .ndjson.gz, .csv.gz, .tsv.gz) inflate in the browser up to 384 MB unpacked; a larger one asks for a download instead. Parquet and Excel need plain bytes and do not open from .gz.
 
 A file over 512 MB is not opened; its row loses the open button and says so on hover, pointing to the download. A gzip cut short is refused rather than shown as part of a file.
 

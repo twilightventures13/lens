@@ -32,7 +32,7 @@ After the fifth file the macro has opened in your browser, it asks once for a ma
 
 The configuration has a height choice for the macro. The default is 560 px; 800 and 1000 px are the other two. The grid scrolls inside that height, so a long file never stretches the page.
 
-A Strand picker, a choice of palette for the grid, sits at the end of the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
+A Strand picker, a choice of palette for the grid, sits in the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
 
 ## Formats and limits
 

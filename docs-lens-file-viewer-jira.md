@@ -26,7 +26,7 @@ The license state of the site reads as one line inside the panel: on an evaluati
 
 After the fifth file the panel has opened in your browser, it asks once for a marketplace review; a review helps us decide what to build next. Write a review opens the listing, No thanks closes the line, and either answer is kept in this browser so the question does not come back.
 
-A Strand picker, a choice of palette for the grid, sits at the end of the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
+A Strand picker, a choice of palette for the grid, sits in the toolbar. Default keeps the host theme, and eleven named strands tint the values, stripe the rows and color the selection. The pick is remembered in this browser.
 
 ## Formats and limits
 

@@ -58,10 +58,11 @@ Each listing also carries a Lens Suite page on how the family fits together:
 [Notebook](https://plugins.jetbrains.com/plugin/33811-notebook-lens-jupyter-ipynb-viewer/lens-suite),
 [Heap Dump](https://plugins.jetbrains.com/plugin/33908-heap-dump-lens-jvm-heap-dump-thread-dump--gc-log-viewer/lens-suite).
 
-VS Code builds of JSONL Lens and Parquet Lens are published on
+VS Code builds of JSONL Lens, Parquet Lens and Log Lens are published on
 [Open VSX](https://open-vsx.org/namespace/twilightventures) and on the Visual Studio
 Marketplace ([JSONL Lens](https://marketplace.visualstudio.com/items?itemName=twilightventures.jsonl-lens-viewer),
-[Parquet Lens](https://marketplace.visualstudio.com/items?itemName=twilightventures.parquet-lens-viewer)).
+[Parquet Lens](https://marketplace.visualstudio.com/items?itemName=twilightventures.parquet-lens-viewer),
+[Log Lens](https://marketplace.visualstudio.com/items?itemName=twilightventures.log-lens-viewer)).
 
 ## Free and Pro
 
@@ -75,10 +76,10 @@ queries, exports, stats, global sort, filtered follow). On Log Lens, following a
 as it grows is free, and following only the lines that match a query is Pro. Each
 JetBrains plugin comes with its own free 30-day Pro trial, and a year of continuous
 subscription earns JetBrains' perpetual fallback license: the version available when
-that year started stays yours for good. The VS Code builds of JSONL Lens and Parquet
-Lens are free to use as well; their Pro is one Lens Pro key, bought once, that covers
-both and includes 12 months of updates, and each machine gets a 14-day Pro trial with
-no key to enter.
+that year started stays yours for good. The VS Code builds of JSONL Lens, Parquet
+Lens and Log Lens are free to use as well; their Pro is one Lens Pro key, bought once,
+that covers all three and includes 12 months of updates, and each machine gets a 30-day
+Pro trial with no key to enter.
 
 ## Bugs and requests
 

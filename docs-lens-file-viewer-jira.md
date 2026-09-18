@@ -1,4 +1,4 @@
-# Lens File Viewer for Jira
+# Lens File, Log, & Attachment Viewer for Jira
 
 Open CSV, Excel, JSONL, Parquet, log and text attachments as paged tables on the Jira issue.
 

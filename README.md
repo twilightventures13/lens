@@ -13,10 +13,13 @@ paging through them instead of loading everything into memory. The JetBrains plu
 make no network calls, and their licensing is the IDE's own; the VS Code builds make
 none either, apart from the two a pasted Pro key makes, one to activate it and one to
 release it when you remove the key. None of them collect anything: your files stay on
-your machine. Lens File Viewer for Confluence and Lens File, Log, & Attachment Viewer
-for Jira work the same way on Atlassian: a CSV, JSONL, Parquet or Excel attachment on a
-Confluence page or a Jira issue opens as a paged table, read as the viewing user, and it
-never leaves your Atlassian site.
+your machine.
+
+On Atlassian, Lens File Viewer for Confluence (in review on the Atlassian Marketplace) and
+[Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)
+open a CSV, JSONL, Parquet or Excel attachment on a Confluence page or a Jira issue as a
+paged table, and the Jira app opens log attachments too. The file is read as the viewing
+user and never leaves your Atlassian site.
 
 ## The plugins
 

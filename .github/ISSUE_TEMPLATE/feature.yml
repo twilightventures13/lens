@@ -9,6 +9,12 @@ body:
       placeholder: Log Lens
     validations:
       required: true
+  - type: input
+    id: ide
+    attributes:
+      label: IDE and build
+      description: Help > About; the Feedback link in the plugin fills this in
+      placeholder: IntelliJ IDEA 2026.2
   - type: textarea
     id: want
     attributes:

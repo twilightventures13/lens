@@ -32,9 +32,10 @@ user and never leaves your Atlassian site.
 - [Parquet Lens](https://plugins.jetbrains.com/plugin/33510) is a Parquet viewer
   that opens Parquet, Avro, TFRecord, Arrow and Feather datasets straight from the editor, no
   export step.
-- [SQLite Lens](https://plugins.jetbrains.com/plugin/33684) is a read-only SQLite
-  viewer: browse the schema, page through tables, inspect cells, without loading
-  or locking the database.
+- [SQLite Lens](https://plugins.jetbrains.com/plugin/33684) is a SQLite viewer,
+  read-only by default: browse the schema, page through tables, inspect cells, without
+  loading or locking the database. Turn "Edit" on to change cells and rows, read the
+  exact SQL in the preview, and save the change in one transaction with Pro.
 - [DuckDB Lens](https://plugins.jetbrains.com/plugin/33853) is its DuckDB
   counterpart: a read-only viewer for .duckdb files, every schema in a tree,
   tables paged in constant memory.

@@ -12,4 +12,6 @@ On VS Code the free viewer makes no network calls at all. Pasting a Pro license 
 
 What we do receive comes from the stores, not the software. When you buy Pro on the JetBrains Marketplace, JetBrains shows us a customer number, the country and the order; when you buy a key through Polar, Polar shows us the name, email address and country you gave at checkout, the amount, and the key. We keep those order records in our own books for as long as tax law asks, and we use the email address only to answer you. We never sell them, and the only party that sees them beyond us is the tax filing the law requires.
 
+Retention and deletion: the two Atlassian apps store nothing of their own, so removing one from a site leaves nothing behind on our side; Atlassian keeps the platform's own app logs for its standard window. A plugin keeps its settings on your machine and the IDE keeps the license, so removing the plugin removes its settings while JetBrains keeps the license record with your account. An extension keeps its settings and the key on your machine, and the activation that key made lives at Polar until you free it in the portal.
+
 Privacy questions can go to support@twilightventures.dev, or to the issue tracker or the discussions of this repository if you prefer them public.

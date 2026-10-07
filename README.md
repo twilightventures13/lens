@@ -15,10 +15,10 @@ none either, apart from the two a pasted Pro key makes, one to activate it and o
 release it when you remove the key. None of them collect anything: your files stay on
 your machine.
 
-On Atlassian, [Lens File Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-viewer-for-confluence) and
+On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-viewer-for-confluence) and
 [Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)
-open a CSV, JSONL, Parquet or Excel attachment on a Confluence page or a Jira issue as a
-paged table, and the Jira app opens log attachments too. The file is read as the viewing
+open a CSV, JSONL, Parquet, Excel or log attachment on a Confluence page or a Jira issue
+as a paged table. The file is read as the viewing
 user and never leaves your Atlassian site.
 
 ## The plugins

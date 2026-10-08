@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Exits 1 when README.md, PRIVACY.md or SECURITY.md carries a claim we no longer
-# make or the policy pages miss a product they cover, and 0 when clean.
+# Exits 1 when README.md, PRIVACY.md or SECURITY.md is missing or carries a claim
+# we no longer make, or the policy pages miss a product they cover, and 0 when
+# clean.
 # Run from anywhere: tools/check-claims.sh
 set -u
 cd "$(dirname "$0")/.." || exit 2
@@ -10,12 +11,19 @@ hit() { echo "$1: $2"; status=1; }
 # the file on one line, so a phrase the hard wrap splits still matches
 flat() { tr -s '[:space:]' ' ' < "$1"; }
 
+# a missing page passes a phrase check silently, so stop on one first
+for f in README.md PRIVACY.md SECURITY.md; do
+  [ -f "$f" ] || hit "$f" "is missing"
+done
+[ "$status" -eq 0 ] || exit "$status"
+
 for phrase in 'bought once' 'one-time' '12 months of updates' 'the two a pasted Pro key makes'; do
   flat README.md | grep -qiF -- "$phrase" && hit README.md "says \"$phrase\""
 done
 
 for f in PRIVACY.md SECURITY.md; do
-  for phrase in 'store nothing of their own' 'one small record' 'two VS Code extensions'; do
+  for phrase in 'store nothing of their own' 'one small record' 'two VS Code extensions' \
+      'viewers make no network calls' 'one network call in any' 'keeps only the theme'; do
     flat "$f" | grep -qiF -- "$phrase" && hit "$f" "says \"$phrase\""
   done
   for app in 'Lens File, Log, & Attachment Viewer for Confluence' 'Lens File, Log, & Attachment Viewer for Jira'; do

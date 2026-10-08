@@ -11,9 +11,9 @@ big JSONL, log, Parquet, Avro, TFRecord, SQLite, DuckDB, Excel workbooks (.xlsx)
 files in place,
 paging through them instead of loading everything into memory. The JetBrains plugins
 make no network calls, and their licensing is the IDE's own; the VS Code builds make
-none either, apart from the two a pasted Pro key makes, one to activate it and one to
-release it when you remove the key. None of them collect anything: your files stay on
-your machine.
+none either, apart from the requests a pasted Pro key makes: one to activate it, a check
+about once a week while it is in use, and one to release it when you remove the key.
+None of them collect anything: your files stay on your machine.
 
 On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-viewer-for-confluence) and
 [Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)
@@ -81,9 +81,10 @@ as it grows is free, and following only the lines that match a query is Pro. Eac
 JetBrains plugin comes with its own free 30-day Pro trial, and a year of continuous
 subscription earns JetBrains' perpetual fallback license: the version available when
 that year started stays yours for good. The VS Code builds of JSONL Lens, Parquet
-Lens and Log Lens are free to use as well; their Pro is one Lens Pro key, bought once,
-that covers all three and includes 12 months of updates, and each machine gets a 30-day
-Pro trial with no key to enter.
+Lens and Log Lens are free to use as well; their Pro is one Lens Pro subscription,
+USD 4.90 a month or 49 a year for personal use and 9.90 a month or 99 a year for
+business, one key that covers all three, and each machine gets a 30-day Pro trial with
+no key to enter.
 
 ## Bugs and requests
 

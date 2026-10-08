@@ -1,8 +1,8 @@
 # Security policy
 
-Last updated 11 September 2026.
+Last updated 8 October 2026.
 
-Twilight Ventures makes file viewers for developer tools: the Lens plugins for JetBrains IDEs and Visual Studio Code, and Lens File Viewer for Confluence and for Jira. This page says how we handle security for those products and how to reach us about a security problem.
+Twilight Ventures makes file viewers for developer tools: the Lens plugins for JetBrains IDEs, the three VS Code extensions (JSONL Lens, Parquet Lens, Log Lens), and the two Atlassian apps (Lens File, Log, & Attachment Viewer for Confluence and Lens File, Log, & Attachment Viewer for Jira). This page says how we handle security for those products and how to reach us about a security problem.
 
 ## Security issues and incidents
 
@@ -16,7 +16,7 @@ Customers who were affected hear from us within 72 hours of the moment we learne
 
 ## What the products do with your data
 
-Lens File Viewer for Confluence and for Jira run on Atlassian Forge. They have no backend of their own and make no request to any server outside Atlassian: the app reads the attachment bytes through the Confluence or Jira product API with the viewing user's own permissions and renders them in the browser. Neither app keeps a copy of your data anywhere. The Confluence macro stores its own settings inside the page it sits on, and both apps keep one small record in your browser storage, the counter behind the one-time request for a review. The scopes are read scopes only (read:page:confluence and read:attachment:confluence for Confluence; read:jira-work for Jira).
+The two Atlassian apps run on Atlassian Forge. They have no backend of their own and make no request to any server outside Atlassian: the app reads the attachment bytes through the Confluence or Jira product API with the viewing user's own permissions and renders them in the browser. Neither app keeps a copy of your data anywhere. Your browser keeps only the theme, each file's view state, the evaluation's file and search counts and your answer to its one review prompt; the Confluence macro keeps its own settings in the page it sits on. The scopes are read scopes only (read:page:confluence and read:attachment:confluence for Confluence; read:jira-work for Jira).
 
 The JetBrains plugins and the VS Code extensions read files on your machine and send no file contents anywhere. The JetBrains plugins make no network call of their own; the IDE handles the license. The DuckDB engine inside DuckDB Lens could fetch an extension from the internet when a query named one, so from version 1.2.7 the plugin opens the engine with extension auto-install and auto-load switched off, and the engine fetches nothing by itself; an INSTALL statement typed into the SQL console is the user's call. The VS Code extensions call Polar, the store that sells their licenses, for the license check and nothing else. A link a product offers, such as the review page or the issue reporter, opens in your browser only when you click it.
 

@@ -1,4 +1,4 @@
-# Lens File Viewer for Confluence
+# Lens File, Log, & Attachment Viewer for Confluence
 
 Open CSV, Excel, JSONL, Parquet, log and text attachments as paged tables on the Confluence page.
 

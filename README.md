@@ -7,14 +7,14 @@ Support: support@twilightventures.dev (name the product and its version). Bugs a
 The terms and policies the store listings link to are in this repository: the Pro EULA of each JetBrains plugin ([EULA-jsonl-lens-pro.md](EULA-jsonl-lens-pro.md), [EULA-log-lens-pro.md](EULA-log-lens-pro.md), [EULA-parquet-lens-pro.md](EULA-parquet-lens-pro.md), [EULA-sqlite-lens-pro.md](EULA-sqlite-lens-pro.md), [EULA-duckdb-lens-pro.md](EULA-duckdb-lens-pro.md), [EULA-xlsx-lens-pro.md](EULA-xlsx-lens-pro.md), [EULA-notebook-lens-pro.md](EULA-notebook-lens-pro.md), [EULA-heapdump-lens-pro.md](EULA-heapdump-lens-pro.md)), [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md) and [SUPPORT.md](SUPPORT.md).
 
 Data file viewers for JetBrains IDEs and VS Code, from twilight ventures. They open
-big JSONL, log, Parquet, Avro, TFRecord, SQLite, DuckDB, Excel workbooks (.xlsx), Jupyter notebook and JVM heap dump
+big JSONL, log, Parquet, Avro, TFRecord, SQLite, DuckDB, Excel (.xlsx, .xlsm, .xltx and .xltm), Jupyter notebook and JVM heap dump
 files in place,
 paging through them instead of loading everything into memory. The JetBrains plugins make no network calls of their own, and their licensing is the IDE's own; the VS Code builds make
 none either, apart from the requests a pasted Pro key makes: one to activate it, a check
 about once a week while it is in use, and one to release it when you remove the key.
 None of them collect anything: your files stay on your machine.
 
-On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-viewer-for-confluence) and
+On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-log-attachment-viewer-for-confluence) and
 [Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)
 open a CSV, JSONL, Parquet, Excel or log attachment on a Confluence page or a Jira issue
 as a paged table. The file is read as the viewing
@@ -23,8 +23,8 @@ user and never leaves your Atlassian site.
 ## The plugins
 
 - [JSONL Lens](https://plugins.jetbrains.com/plugin/33397) is a JSONL viewer for
-  IntelliJ IDEA, PyCharm and the rest of the JetBrains family: it reads .jsonl and
-  .ndjson, gzipped included, however large.
+  IntelliJ IDEA, PyCharm and the rest of the JetBrains family: it reads .jsonl,
+  .ndjson, .ldjson and .jsonlines, gzipped included, however large.
 - [Log Lens](https://plugins.jetbrains.com/plugin/33416) is a log viewer built for
   large files, in plain, JSONL, logfmt and ANSI flavors, and can follow them as
   they grow.
@@ -39,7 +39,8 @@ user and never leaves your Atlassian site.
   counterpart: a read-only viewer for .duckdb files, every schema in a tree,
   tables paged in constant memory.
 - [XLSX Lens](https://plugins.jetbrains.com/plugin/33721) does the same for Excel
-  workbooks: a read-only .xlsx viewer that pages sheets of any size.
+  workbooks and templates: a read-only viewer that opens .xlsx, .xlsm, .xltx and
+  .xltm files and pages sheets of any size.
 
 [Notebook Lens](https://plugins.jetbrains.com/plugin/33811) needs no kernel and no
 Jupyter install. It renders Jupyter notebooks as readable documents, outputs

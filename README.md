@@ -9,8 +9,7 @@ The terms and policies the store listings link to are in this repository: the Pr
 Data file viewers for JetBrains IDEs and VS Code, from twilight ventures. They open
 big JSONL, log, Parquet, Avro, TFRecord, SQLite, DuckDB, Excel workbooks (.xlsx), Jupyter notebook and JVM heap dump
 files in place,
-paging through them instead of loading everything into memory. The JetBrains plugins
-make no network calls, and their licensing is the IDE's own; the VS Code builds make
+paging through them instead of loading everything into memory. The JetBrains plugins make no network calls of their own, and their licensing is the IDE's own; the VS Code builds make
 none either, apart from the requests a pasted Pro key makes: one to activate it, a check
 about once a week while it is in use, and one to release it when you remove the key.
 None of them collect anything: your files stay on your machine.

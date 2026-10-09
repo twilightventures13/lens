@@ -12,7 +12,7 @@ files in place,
 paging through them instead of loading everything into memory. The JetBrains plugins make no network calls of their own, and their licensing is the IDE's own; the VS Code builds make
 none either, apart from the requests a pasted Pro key makes: one to activate it, a check
 about once a week while it is in use, and one to release it when you remove the key.
-None of them collect anything: your files stay on your machine.
+None of them collect your file contents: your files stay on your machine.
 
 On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-log-attachment-viewer-for-confluence) and
 [Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)

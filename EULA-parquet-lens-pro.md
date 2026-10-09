@@ -18,4 +18,4 @@ Parquet Lens ("the Software") is a plugin for JetBrains IDEs, distributed throug
 
 7. Governing law. This agreement is governed by the laws of the State of Wyoming, USA, excluding its conflict-of-law rules.
 
-Contact: twilightventures13@gmail.com
+Contact: support@twilightventures.dev

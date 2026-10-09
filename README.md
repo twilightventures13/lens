@@ -87,6 +87,6 @@ no key to enter.
 
 ## Bugs and requests
 
-This repository is the tracker for every Lens plugin. If something breaks or you
+This repository is the tracker for every Lens product. If something breaks or you
 want a plugin to do more, [open an issue](https://github.com/twilightventures13/lens/issues/new/choose)
 and pick a template. SUPPORT.md covers what helps a bug report get fixed fast.

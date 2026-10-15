@@ -15,7 +15,7 @@ about once a week while it is in use, and one to release it when you remove the 
 None of them collect telemetry, keep an account, or send a file, a file name or a record anywhere: your files stay on your machine.
 
 On Atlassian, [Lens File, Log, & Attachment Viewer for Confluence](https://marketplace.atlassian.com/apps/562118775/lens-file-log-attachment-viewer-for-confluence) and
-[Lens File, Log, & Attachment Viewer for Jira](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira)
+[Lens File, Log, & Attachment Viewer for Jira and Rovo](https://marketplace.atlassian.com/apps/249455342/lens-file-log-attachment-viewer-for-jira-and-rovo)
 open a CSV, JSONL, Parquet, Excel or log attachment on a Confluence page or a Jira issue
 as a paged table. The file is read as the viewing
 user and never leaves your Atlassian site.

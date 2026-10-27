@@ -39,8 +39,9 @@ user and never leaves your Atlassian site.
   counterpart: a read-only viewer for .duckdb files, every schema in a tree,
   tables paged in constant memory.
 - [XLSX Lens](https://plugins.jetbrains.com/plugin/33721) does the same for Excel
-  workbooks and templates: a read-only viewer that opens .xlsx, .xlsm, .xltx and
-  .xltm files and pages sheets of any size.
+  workbooks and templates: a viewer, read-only by default, that opens .xlsx, .xlsm,
+  .xltx and .xltm files, pages sheets of any size, and, with Edit on, saves cell edits
+  back into the workbook in place.
 
 [Notebook Lens](https://plugins.jetbrains.com/plugin/33811) needs no kernel and no
 Jupyter install. It renders Jupyter notebooks as readable documents, outputs
